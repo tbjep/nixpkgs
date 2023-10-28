@@ -3334,6 +3334,8 @@ self: super: with self; {
 
   dtschema = callPackage ../development/python-modules/dtschema { };
 
+  dtumathtools = callPackage ../development/python-modules/dtumathtools { };
+
   dtw-python = callPackage ../development/python-modules/dtw-python { };
 
   ducc0 = callPackage ../development/python-modules/ducc0 { };
